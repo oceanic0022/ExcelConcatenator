@@ -39,7 +39,7 @@ def save_to_excel(df, output_path):
 
 
 
-#ディレクトリ内にあるすべてのエクセルファイルの行を連結させて一つのエクセルファイルもまとめるコード
+#ディレクトリ内にあるすべてのエクセルファイルの行を連結させて一つのエクセルファイルにまとめるコード
 def concatenate_excel_files(directory, output_filename):
     # ディレクトリ内のすべてのExcelファイルのリストを作成
     excel_files = [f for f in os.listdir(directory) if f.endswith('.xlsx')]
